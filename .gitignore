@@ -31,3 +31,6 @@ Thumbs.db
 # Frontend build outputs
 frontend/dist/
 dist/
+
+
+ARCHITECTURE.md
