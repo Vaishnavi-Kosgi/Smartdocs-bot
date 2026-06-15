@@ -16,6 +16,7 @@ backend/vector_stores/
 backend/.env
 .env
 
+
 # Python caching
 __pycache__/
 backend/__pycache__/

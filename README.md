@@ -9,6 +9,7 @@ The application is styled with a sleek dark-space radial gradient depth (`radial
 
 ---
 
+
 ## 🛠️ Complete Technical Architecture
 
 ```mermaid

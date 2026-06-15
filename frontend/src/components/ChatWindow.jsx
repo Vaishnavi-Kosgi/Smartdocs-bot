@@ -55,9 +55,9 @@ export default function ChatWindow({ activeDoc }) {
             prev.map((m) =>
               m.isTyping
                 ? {
-                    ...m,
-                    content: currentContent
-                  }
+                  ...m,
+                  content: currentContent
+                }
                 : m
             )
           )
@@ -67,13 +67,13 @@ export default function ChatWindow({ activeDoc }) {
             prev.map((m) =>
               m.isTyping
                 ? {
-                    id: m.id,
-                    role: 'ai',
-                    content: result.answer || currentContent,
-                    intent: result.intent,
-                    sources: result.sources,
-                    isTyping: false
-                  }
+                  id: m.id,
+                  role: 'ai',
+                  content: result.answer || currentContent,
+                  intent: result.intent,
+                  sources: result.sources,
+                  isTyping: false
+                }
                 : m
             )
           )
