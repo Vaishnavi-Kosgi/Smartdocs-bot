@@ -9,9 +9,8 @@ genai.configure(api_key=os.getenv("GEMINI_API_KEY"))
 
 GENERATION_MODEL = "gemini-1.5-flash"
 
-# ──────────────────────────────────────────────
 # Intent Detection
-# ──────────────────────────────────────────────
+
 
 SUMMARIZE_KEYWORDS = [
     "summarize", "summary", "summarise", "overview", "brief",
