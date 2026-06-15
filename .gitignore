@@ -1,0 +1,32 @@
+# Python virtual environments
+venv/
+.venv/
+env/
+
+# Node dependencies
+node_modules/
+frontend/node_modules/
+
+# Local databases and uploads
+backend/chroma_db/
+backend/uploads/
+backend/vector_stores/
+
+# Environment keys and credentials
+backend/.env
+.env
+
+# Python caching
+__pycache__/
+backend/__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# OS specific files
+.DS_Store
+Thumbs.db
+
+# Frontend build outputs
+frontend/dist/
+dist/
